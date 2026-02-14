@@ -34,4 +34,16 @@ if username in user and pin == input_pin.get(username) and password==passwords.g
                 order_amount+=taxt
                 print(f"Your total order amount is: {order_amount:.2f} (including tax: {taxt:.2f})")
 else:
-    print("Invalid username, password, or PIN. Access denied.")
+    user_exists = username in user
+    
+    if user_exists:
+        is_pass_wrong = password != passwords.get(username)
+        is_pin_wrong = pin != input_pin.get(username)
+    else:
+        is_pass_wrong = "N/A (User not found)"
+        is_pin_wrong = "N/A (User not found)"
+    
+    print(f"\n🚫 Access Denied!")
+    print(f"User Found: {user_exists}")
+    print(f"Password Incorrect: {is_pass_wrong}")
+    print(f"PIN Incorrect: {is_pin_wrong}")
