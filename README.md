@@ -26,6 +26,7 @@ Is folder mein real-world decision making, nested logic, aur complex logical ope
 * 🔸 **`learning-nested-if.py`**: Bank ATM Simulation. Secure PIN verification 🔑 aur account balance checking 💳 ka nested logic.
 * 🔸 **`if_else.py`**: Eligibility Systems. Age restrictions 🔞 aur driving license verification 🪪.
 * 🔸 **`Free-Delivery.py`**: Basic Login Flows. Username/Password check 🛡️ aur minimum purchase amount validation 📊.
+* 🔸**`warehouse_security.py`**: 🛡️ Advanced Security Portal featuring Multi-Factor Authentication (PIN verification) 🔑, automated Account Status monitoring 🚫, and specialized Role-Based Order Management 💼 for Managers & Staff.
 
 ---
 
