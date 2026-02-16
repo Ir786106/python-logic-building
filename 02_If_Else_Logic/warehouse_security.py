@@ -2,12 +2,15 @@ username=str(input("Enter username: ")).lower()
 password=str(input("Enter password: ")).lower()
 pin=int(input("Enter PIN: "))
 
+#------- DataBase------------------
 user={"ali", "sara", "mohammad","irfan","saqib"}
 passwords={"ali": "ali123", "sara": "sara123", "mohammad": "mohammad123", "irfan": "irfan123", "saqib": "saqib123"}
 input_pin={ "ali":1234, "sara":5678, "mohammad":9012, "irfan":3456, "saqib":7890}
 is_banned={"ali": False, "sara": False, "mohammad": True, "irfan": False, "saqib": True}
 role={"ali": "manager", "sara": "staff", "mohammad": "staff", "irfan": "manager", "saqib": "staff"}
 city="arifwala"
+
+# ------------------main function/ program-----------------------
 if username in user and pin == input_pin.get(username) and password==passwords.get(username):
     if is_banned.get(username, False):
         print("You are banned from accessing the warehouse.")
