@@ -28,6 +28,19 @@ Is folder mein real-world decision making, nested logic, aur complex logical ope
 * 🔸 **`Free-Delivery.py`**: Basic Login Flows. Username/Password check 🛡️ aur minimum purchase amount validation 📊.
 * 🔸**`warehouse_security.py`**: 🛡️ Advanced Security Portal featuring Multi-Factor Authentication (PIN verification) 🔑, automated Account Status monitoring 🚫, and specialized Role-Based Order Management 💼 for Managers & Staff.
 
+### 🎯 3. Advanced Pattern Matching (`03_Match_Case/`) ✨
+
+Python 3.10+ ka modern **Match-Case** feature jo `if-elif` ko cleaner aur faster banata hai:
+
+* 🔸 **`learning_match_case.py`**: **Warehouse Management System**.
+  * Multiple keywords (e.g., "1" or "Stock") ko pipe operator (`|`) ke saath handle kiya gaya hai.
+  * Invalid inputs ke liye default wildcard pattern (`_`) ka implementation.
+
+* 🔸 **`task_order_system.py`**: 🍔 **Itthad Food Advanced Portal**.
+  * **💰 Smart Billing**: Dynamic dictionary-based pricing (Biryani, Burger, Juice).
+  * **🛡️ Case Guards**: `if` conditions ka use karke bulk orders par 20% discount aur inventory check (Juice limit: 50) implement kiya.
+  * **🔍 Data Validation**: Type-checking patterns (`str(item) if item.isdigit()`) taake numeric errors ko handle kiya ja sake.
+
 ---
 
 ## 🚀 How to Run the Code 💻
