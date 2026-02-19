@@ -41,6 +41,26 @@ Python 3.10+ ka modern **Match-Case** feature jo `if-elif` ko cleaner aur faster
   * **🛡️ Case Guards**: `if` conditions ka use karke bulk orders par 20% discount aur inventory check (Juice limit: 50) implement kiya.
   * **🔍 Data Validation**: Type-checking patterns (`str(item) if item.isdigit()`) taake numeric errors ko handle kiya ja sake.
 
+* 🔸 **`calculator.py**`: 🧮 ** Basic Arithmetic Engine**
+  * **📥Input Handling**: Takes two integers and an operator string from the user.
+  * **🚫Error Prevention**: Implements nested if checks within cases to prevent "Division by Zero" and "Modulo by Zero" errors.
+  * **🔍Wildcard Pattern**: Uses case _: to catch any unsupported operators and provide user feedback.
+
+* 🔸**`order_status.py`**: 📦 **Itthad Food Advanced Portal**
+  * **🛡️ Case Guards: Utilizes if conditions (Guards) within cases to categorize Order IDs into ranges (e.g., 1000-1999 for Processing).**
+  * **✨Dynamic Feedback**: Displays specific status emojis (🛒, 🚚, 📦, ❌) based on the numerical range of the order_id.
+  * **🔍Range Validation**: Ensures the user is notified if the ID falls outside the 1000–4999 threshold.
+
+* 🔸**`simple_match.py`**: 🗓️ **Weekend/Weekday Classifier**
+  * **🛤️Pipe Operator (|)**: Demonstrates how to handle multiple keywords (e.g., "Saturday" | "Sunday") in a single case block.
+  * **🧼Data Sanitization**: Uses .strip().capitalize() to ensure input consistency regardless of user typing style.
+  * **Default Logic**: Handles invalid day names using the default wildcard pattern.
+
+* 🔸**`traffic_light.py`**: 🚦 **Traffic Control System**
+  * **🛣️String Matching**: Simple, direct matching for "red", "yellow", and "green" states.
+  * **🔤Case Sensitivity**: Uses .lower() to normalize user input before processing.
+  * **🎮Visual Cues**: Integrates emojis to provide a more interactive console experience.
+
 ---
 
 ## 🚀 How to Run the Code 💻
